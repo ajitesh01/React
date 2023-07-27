@@ -22,6 +22,7 @@ How do you create a prod build ?
 npx parcel build index.html-- is used for production build  (create 3 files under dict folder ,minification )
 npx parcel index.html -->is used for development build 
 
+
 npm run start/npm start -> it will run npx pacel index.html , it can be done through package.json inside scripts tag
 similarly npm build/npm run build ----for production build ,because this it is configured on package.json
 
