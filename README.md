@@ -14,5 +14,15 @@
 12. Https support 
 13. Tree Shaking .remove unused code and compression
 14. Transpilation
+15. Different Dev & prod build.
 #parcel is beast
 For better understanding please https://parceljs.org/docs/
+
+How do you create a prod build ?
+npx parcel build index.html-- is used for production build  (create 3 files under dict folder ,minification )
+npx parcel index.html -->is used for development build 
+
+npm run start/npm start -> it will run npx pacel index.html , it can be done through package.json inside scripts tag
+similarly npm build/npm run build ----for production build ,because this it is configured on package.json
+
+
