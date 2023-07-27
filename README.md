@@ -27,3 +27,4 @@ npm run start/npm start -> it will run npx pacel index.html , it can be done thr
 similarly npm build/npm run build ----for production build ,because this it is configured on package.json
 
 
+/JSX Element=>Parcel=>Babel
