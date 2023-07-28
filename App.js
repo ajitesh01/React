@@ -1,6 +1,6 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
-const elem=<spa>React Elemet</spa>;
+const elem=<span>React Elemet</span>;
 const Title =()=>{
     return (
     <h1 className="head">
