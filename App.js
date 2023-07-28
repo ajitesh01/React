@@ -8,7 +8,9 @@ root.render(heading);*/
 
 //JSX Element=>Parcel=>Babel
 //JSX->React.CreateElemt=>ReactElement-JS Object=>HtmlElemnt()
-const jsxheading =<h1 id="heading"> Jsx Learning </h1>
+const jsxheading =(<h1 className="heading">
+     Jsx Learning 
+     </h1>)
 const root=ReactDOM.createRoot(document.getElementById("root"));
 console.log(jsxheading);
 root.render(jsxheading);

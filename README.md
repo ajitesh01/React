@@ -38,6 +38,14 @@ JSX=>React.CreateElemt=>ReactElement-JS Object=>HtmlElement(render)
 Babel is converting JSX to React.CreateElemt
 to see the output of JSX , just go to babel official site and put some jsx tag , see the result.
 
+React Component:
+1. Class Based Component (its older way of writing code)
+2. Functional Component (its just a normal JS function)
+whenever you create a functional component , declear the componet with Capital letter.its react way to understand its function component.
+
+
+
+
 
 
 
