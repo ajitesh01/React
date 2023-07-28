@@ -2,9 +2,10 @@
 1. Class Based Component
 2. Functional Component
 
-what is functional component?
+what is functional component? <br>
 A function  which has JSX  component inside it.
-what is componet composition ?
+
+what is componet composition ? <br>
 component under component
-Can we put react element inside functional componet?
+Can we put react element inside functional componet? <br>
 Yes,we can by wrapping {} bracket.
