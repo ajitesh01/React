@@ -6,6 +6,6 @@ what is functional component? <br>
 A function  which has JSX  component inside it.
 
 what is componet composition ? <br>
-component under component
+component under component<br>
 Can we put react element inside functional componet? <br>
 Yes,we can by wrapping {} bracket.
