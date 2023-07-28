@@ -1,3 +1,16 @@
+/*
+Header
+    -logo
+    -nav item(home,about us)
+Body
+    -search
+    -Restro Container
+    -Restro Card
+Footer
+    -Copyright
+    -link
+*/
+
 How to pass data to componets ? <br>
 Answer is 'props', its like passing a arguments to a function  <br>
 what is config driven ui? <br>
@@ -15,3 +28,12 @@ supoose all the component has uniquue key , a new component comes with new id, r
 React does not recommend the index as key .
 <br>
 https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/
+there are two types of default import/export.<br>
+-------------------------------------------
+default import/export
+ex: export default ComponentName <br>
+import ComponentName from 'path'<br>
+---------------------------------------
+//Named import/export <br>
+export const Component;<br>
+import {Component} from 'path';
