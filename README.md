@@ -27,4 +27,18 @@ npm run start/npm start -> it will run npx pacel index.html , it can be done thr
 similarly npm build/npm run build ----for production build ,because this it is configured on package.json
 
 
-/JSX Element=>Parcel=>Babel
+JSX Element=>Parcel=>Babel
+JSX is not html inside Js file, JSX is html like syntax
+Does Browser understand of JSX statement?---NO,beacuse JSx is not js script ,js engine does not understand jsx.
+JSx statements trnaspiled(this code converted to js-react code ) before it reaches to JS engine.
+who is trnaspiling the JSX code ? parcel is doing .
+parcel gives reponsibility to Babel for transpiling job.
+JSX code tranfored to React.CreateElement() which return a react object which passed to HtmlElement().
+JSX=>React.CreateElemt=>ReactElement-JS Object=>HtmlElement(render)
+Babel is converting JSX to React.CreateElemt
+to see the output of JSX , just go to babel official site and put some jsx tag , see the result.
+
+
+
+
+//JSX->React.CreateElemt=>ReactElement-JS Object=>HtmlElemnt()
