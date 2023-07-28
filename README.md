@@ -37,3 +37,9 @@ import ComponentName from 'path'<br>
 //Named import/export <br>
 export const Component;<br>
 import {Component} from 'path';
+
+
+React utility:
+1. useState() ->to generate state variable 
+2. UseEffect()
+whenever a state variable changes/updates by useState react will rerender the component   
