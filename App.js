@@ -1,10 +1,10 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
-
+const elem=<spa>React Elemet</spa>;
 const Title =()=>{
     return (
     <h1 className="head">
-        component learning with JSX
+       {elem} component learning with JSX
     </h1>
 )};
 
