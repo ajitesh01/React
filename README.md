@@ -42,4 +42,44 @@ import {Component} from 'path';
 React utility:
 1. useState() ->to generate state variable 
 2. UseEffect()
-whenever a state variable changes/updates by useState react will rerender the component   
+whenever a state variable changes/updates by useState, react will rerender the component
+
+what is virtual DOM?
+virtual is representation of actual DOM .
+what do you mean of represenataion ?
+representation is React.CreateElement() which is an object ---> this virtual DOM .
+So Virtual DOM is nothing but JS object ..
+what is Diff algorithm?
+it finds basically diference between two vitual DOM . and react updates the actual DOM.
+
+what is react fibre?
+https://github.com/acdlite/react-fiber-architecture
+React is fast because of its Virtual DOM .
+
+
+
+How React fectch data from backend? <br>
+there are 2 ways to fetch data.
+1. Loads -> Api Call ->render it on UI<br>
+As soon as page loads we can make an api call , wait for data , once get the data it will render the data on UI .<br>
+2. Loads->render on UI -> API call ->Rerender with new data<br>
+As soon as page loads , we can render the UI,skeleton  (whatver the data we have), now we can make API call , once the data available again rerender the UI . <br>
+2nd Approach is better . (useEffect Hook uses for that).
+UseEffect-->as soon as a component is rendered , it will call callback function inside UseEffect function.
+
+what is Shimmer UI ?
+until page loads completely due to network call or whatever , show fake cards/component
+
+what is optional chaining?
+i did not implement this on codebase
+
+
+
+
+
+
+
+
+
+
+
