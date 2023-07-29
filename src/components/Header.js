@@ -1,7 +1,9 @@
 import { LOGO_URL } from "../util/constant";
+import {useState,useEffect} from "react";
 const Header = ()=>{
     //logo
     //nav item
+    const [btnName,changeBtnName]=useState("Login");
     return (
         <div className="header">
             <div className="logo">
@@ -13,6 +15,14 @@ const Header = ()=>{
                     <li>Home</li>
                     <li>Contact</li>
                     <li>Cart</li>
+                    <button className="login-btn" onClick={()=>{
+                        if(btnName==="Login"){
+                            changeBtnName("Logout");
+                        }
+                        else{
+                            changeBtnName("Login");
+                        }
+                        }}>{btnName}</button>
                 </ul>
     
             </div>

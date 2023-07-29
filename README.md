@@ -71,7 +71,12 @@ what is Shimmer UI ?
 until page loads completely due to network call or whatever , show fake cards/component
 
 what is optional chaining?
-i did not implement this on codebase
+i did not implement this on codebase<br>
+
+
+if you want ,something should change om component , we should use 'UseState' -- local state variable
+<br>
+
 
 
 

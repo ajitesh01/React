@@ -8,12 +8,13 @@
 
 }
 .logo{
-    width: 50px;
-    
+    width: 150px;
 }
 .res-container{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 65px;
+    border: 1px solid black;
 }
 
 .nav-items > ul{
@@ -29,14 +30,19 @@
 .res-card{
     width:200px;
    
-    margin: 5px;
+    margin:5px;
 
     border: 1px solid black;
     padding: 5px;
 }
 .res-logo{
-    width:190px;
+    width:150px;
     margin: 5px;
+    padding: 5px;
+}
+.cuisine{
+   
+  word-wrap: break-word;
 }
 
 .search{
@@ -54,4 +60,11 @@
 .shimmer-container{
     display: flex;
     flex-wrap: wrap;
+}
+.login-btn{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
 }
