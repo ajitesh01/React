@@ -66,7 +66,7 @@ As soon as page loads we can make an api call , wait for data , once get the dat
 As soon as page loads , we can render the UI,skeleton  (whatver the data we have), now we can make API call , once the data available again rerender the UI . <br>
 2nd Approach is better . (useEffect Hook uses for that).
 UseEffect-->as soon as a component is rendered , it will call callback function inside UseEffect function.
-
+whenever 
 what is Shimmer UI ?
 until page loads completely due to network call or whatever , show fake cards/component
 
@@ -76,6 +76,22 @@ i did not implement this on codebase<br>
 
 if you want ,something should change om component , we should use 'UseState' -- local state variable
 <br>
+if there is no dependency array , every time a compoent render , useEffect is also gettting called after every render.
+<br>
+what is there is empty dependency array  for useEffect(()=>{},[])?
+useEffect is only called on initial render , just call only once.
+what if therere is non empty dependency array?
+useEffect is called every time dependency array / content of array updated.
+
+<br>
+Never use 'useState' inside if/else condition-->read documentation .
+
+Link component uses to navigate to different URL , benefits is it not reload entire page ..
+There are 2 types of routing:
+1. Client Side Routing
+2. Server Side Routing
+
+
 
 
 
