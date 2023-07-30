@@ -92,6 +92,20 @@ There are 2 types of routing:
 2. Server Side Routing
 
 
+How the component is loaded/mounted on webpage? (understanding is important to know internal)
+1. interestig to know 
+componentDidMount() use case? to make API call .But but Why we do that?-- very important concept.
+generally react quickly render the compoent then it call APi , then filled the data inside component rather than first call the api and waiting for the data to be available then render ----> beacuse it is slow.
+
+
+why function based component over class based component?
+when we are invoking  class component ,that means we are instating the class componet ,making new object ---OOOPS concept.
+when there are multiple children, same children , react life cycle is not called as expected .... why ?
+Follow react life cycle diagram 
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ 
+
+
+
 
 
 
