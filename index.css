@@ -28,10 +28,9 @@
     margin: 10px;
 }
 .res-card{
-    width:200px;
-   
+    width:250px;
+    height: 500px;
     margin:5px;
-
     border: 1px solid black;
     padding: 5px;
 }

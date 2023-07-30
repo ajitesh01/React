@@ -1,11 +1,15 @@
 {
-  "name": "namastereact",
   "version": "1.0.0",
   "description": "react course by Ajitesh Mandal",
+  "homepage": "https://github.com/ajitesh01/React",
+  "name": "Food Ordering App",
+  "private":true,
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,7 @@
   },
   "homepage": "https://github.com/ajitesh01/React#readme",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.9.0",
     "process": "^0.11.10"
   },
