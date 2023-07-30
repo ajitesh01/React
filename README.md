@@ -92,6 +92,7 @@ There are 2 types of routing:
 2. Server Side Routing
 
 
+
 How the component is loaded/mounted on webpage? (understanding is important to know internal)
 1. interestig to know 
 componentDidMount() use case? to make API call .But but Why we do that?-- very important concept.
@@ -103,6 +104,8 @@ when we are invoking  class component ,that means we are instating the class com
 when there are multiple children, same children , react life cycle is not called as expected .... why ?
 Follow react life cycle diagram 
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ 
+"start": "parcel index.html",
+"build": "set BUILD_PATH='./dist' parcel build index.html"
 
 
 

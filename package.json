@@ -7,9 +7,9 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "build": " parcel build index.html"
   },
   "repository": {
     "type": "git",
