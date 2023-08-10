@@ -2,16 +2,19 @@ import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { json } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import useResturantMenu from "../util/useResturantMenu";
+
 const ResturantMenu = ()=>{
-    const [resInfo,setResInfo]=useState(null);
+  //  const [resInfo,setResInfo]=useState(null);
     const {resId}=useParams();
+    const resInfo = useResturantMenu(resId);
     console.log(resId);
-    useEffect(()=>{fetchMenu()},[]);
-    const  fetchMenu=async ()=>{
-       const data = await fetch("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9715987&lng=77.5945627&restaurantId="+resId+"&catalog_qa=undefined&submitAction=ENTER");
-       const jsonData=await data.json(); 
-       setResInfo(jsonData.data);
-    };
+    // useEffect(()=>{fetchMenu()},[]);
+    // const  fetchMenu=async ()=>{
+    //    const data = await fetch("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9715987&lng=77.5945627&restaurantId="+resId+"&catalog_qa=undefined&submitAction=ENTER");
+    //    const jsonData=await data.json(); 
+    //    setResInfo(jsonData.data);
+    // };
 
     if(resInfo===null)
     {

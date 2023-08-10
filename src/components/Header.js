@@ -7,16 +7,17 @@ const Header = ()=>{
     useEffect(()=>console.log("called after every time"));
     const [btnName,changeBtnName]=useState("Login");
     return (
-        <div className="header">
-            <div className="logo">
-                <img src={LOGO_URL}/>   
+        <div className="flex justify-between bg-pink-100 shadow-sm m-1">
+            <div className="">
+                 <img className="w-23" src={LOGO_URL}/> 
             </div>
-            <div className="nav-items">
-                <ul>
-                    <li> <Link to="/"> Home </Link></li>
-                    <li><Link to="/contact"> Contact </Link></li>
-                    <li><Link to="/about">About Us </Link></li>
-                    <button className="login-btn" onClick={()=>{
+             
+            <div className="flex items-center">
+                <ul className="flex">
+                    <li className="px-3"> <Link to="/"> Home </Link></li>
+                    <li className="px-3"><Link to="/contact"> Contact </Link></li>
+                    <li className="px-3"><Link to="/about">About Us </Link></li>
+                    <button className="login-btn px-3" onClick={()=>{
                         if(btnName==="Login"){
                             changeBtnName("Logout");
                         }
